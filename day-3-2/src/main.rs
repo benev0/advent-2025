@@ -46,10 +46,5 @@ fn compute_max_joltage(array: &Vec<u8>) -> u64 {
         window_start += a.0 + 1;
     }
 
-    // let b = array[a.0 + 1..]
-    //     .iter()
-    //     .max()
-    //     .expect("array expects at least one element at this point");
-
     dbg!(joltage)
 }
